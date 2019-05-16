@@ -1,0 +1,40 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@typeform/embed": "^0.8.1",
+    "brew": "0.0.8",
+    "firebase": "^5.9.0",
+    "native-base": "^2.12.1",
+    "react": "16.8.3",
+    "react-firebaseui": "^3.1.2",
+    "react-native": "^0.59.1",
+    "react-native-clean-project": "^3.0.1",
+    "react-native-elements": "^0.19.1",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-qrcode": "^0.2.7",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.2.1",
+    "react-typeform-embed": "^0.2.0",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/runtime": "7.4.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "24.5.0",
+    "gulp-babel": "^8.0.0",
+    "jest": "24.5.0",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
