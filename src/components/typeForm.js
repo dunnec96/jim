@@ -1,6 +1,7 @@
 import React from 'react';
 import * as typeformEmbed from '@typeform/embed'
-import { View, WebView } from 'react-native'
+import { View } from 'react-native'
+import { WebView } from 'react-native-webview';
 
 class Form extends React.Component {
     constructor(props) {
