@@ -17,9 +17,10 @@
     "react-native-clean-project": "^3.0.1",
     "react-native-elements": "^0.19.1",
     "react-native-fbsdk": "^0.8.0",
-    "react-native-gesture-handler": "^1.0.15",
+    "react-native-gesture-handler": "^1.2.1",
     "react-native-qrcode": "^0.2.7",
     "react-native-vector-icons": "^6.3.0",
+    "react-native-webview": "^6.0.1",
     "react-navigation": "^3.2.1",
     "react-typeform-embed": "^0.2.0",
     "semantic-ui-css": "^2.4.1"
@@ -35,6 +36,10 @@
     "react-test-renderer": "16.8.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "setupFilesAfterEnv": ["./jestsetup.js"],
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|react|react-native-firebase|fbjs|@firebase|react-test-renderer|@react-navigation|react-navigation-tabs|react-navigation-stack|react-native-fbsdk|native-base|native-base-shoutem-theme|@shoutem/theme|@shoutem/animation|@shoutem/ui|tcomb-form-native)"
+    ]
   }
 }
